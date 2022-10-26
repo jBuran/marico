@@ -1,0 +1,88 @@
+.altway {
+    &__content {
+        width: 1520px;
+        height: 406px;
+        margin: 67px auto 0;
+
+    }
+    &__caption {
+        width: 161px;
+        height: 118px;
+        margin: 0 auto;
+    }
+    &__caption--login {
+        width: 141px;
+        height: 118px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-family: 'Poppins';
+        @include font(600, 54px, $text-white);
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    &__description {
+        font-family: 'Poppins';
+        @include font(400, 24px, $text-white);
+    }
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1520px;
+        height: 75px;
+        margin-top: 46px;
+    }
+    &__btn {
+        font-family: 'Poppins';
+        @include font (400, 21px, $text-white);
+        border: solid $text-grey 1px;
+        border-radius: 15px;
+        transition: 0.25s;
+    }
+    &__btn:hover {
+        background: $text-grey;
+        color: $text-white;
+        border: solid transparent 1px;
+        transition: 0.25s;
+    }
+    &__group{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        position: absolute;
+    }
+    &__question {
+        font-family: 'Poppins';
+        @include font (400, 16px, $text-white);
+        width: 324px;
+        height: 34px;
+        margin: 70px auto 74px;
+    }
+            
+            
+        
+}
+.apple {
+    padding: 23px 104px 20px 156px;
+}
+.facebook {
+    padding: 23px 82px 20px 136px;
+}
+.google {
+    padding: 23px 95px 20px 150px;
+}
+
+.appleImg {
+    left: 104px;
+}
+
+.facebookImg {
+    left: 82px;
+}
+.googleImg {
+    left: 95px;
+}

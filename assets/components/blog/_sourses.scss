@@ -1,0 +1,66 @@
+.sources {
+    &__caption {
+        width: 1013px;
+        height: 225px;
+        margin: 128px auto 0;
+
+    }
+    &__title {
+        font-family: 'Poppins';
+        @include font (600, 120px, $text-white);
+        width: 1013px;
+        height: 180px;
+        margin: 0 auto;
+
+    }
+    &__description {
+        font-family: 'Poppins';
+        @include font (400, 30px, $text-white);
+        width: 750px;
+        height: 45px;
+        margin: 0 auto;
+    }
+    &__socialMedia{
+        width: 1255px;
+        height: 1045px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        margin: 114px auto 0;
+        &--icon {
+            max-width: 50px;
+            max-height: 50px;
+            margin: 36px 0 0 30px;
+        }
+        &--group {
+            width: 400px;
+            height: 241px;
+            border: 1px solid $text-grey;
+            border-radius: 10px;
+            position: relative;
+        }
+        &--platform {
+            font-family: 'Poppins';
+            @include font (600, 30px, $text-white);
+            margin: 17px 0 0 30px;
+
+        }
+        &--description {
+            font-family: 'Poppins';
+            @include font (400, 23px, $text-grey);
+            margin: 11px 0 0 30px;
+
+        }
+        &--soon {
+            position: absolute;
+            background: #102142;
+            border-radius: 10px;
+            font-family: 'Poppins';
+            @include font (400, 16px, #4A7DE3);
+            padding: 7.5px 18px ;
+            bottom: 190px;
+            left: 242px;
+        }
+    }
+}

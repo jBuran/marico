@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.header {
+  padding: 46px 140px 0 140px;
+}
+.header__content {
+  width: 1640px;
+  height: 56px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  text-align: center;
+}
+.header__logo--text {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 37px;
+  margin-left: 16px;
+  margin-top: 7px;
+  color: #fff;
+}
+.header__list {
+  display: flex;
+  width: 398px;
+  justify-content: space-between;
+}
+.header__link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: #707070;
+  transition: 0.25s;
+}
+.header__link:hover {
+  color: #306EF7;
+  transition: 0.25s;
+}
+.header__registration {
+  display: flex;
+  width: 198px;
+  justify-content: space-between;
+}
+.header__registration--link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: #707070;
+}
+.header__registration--link:hover {
+  color: #306EF7;
+  transition: 0.25s;
+}
+.header__registration--btn {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  color: #707070;
+  background: transparent;
+  border: solid #707070 1px;
+  border-radius: 7px;
+  padding: 12px 21px;
+  transition: 0.25s;
+}
+.header__registration--btn:hover {
+  background: #306EF7;
+  color: #fff;
+  border: solid transparent 1px;
+  transition: 0.25s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.mission__logo {
+  width: 326px;
+  height: 93px;
+  display: flex;
+  margin: 122px auto 0;
+}
+.mission__logo--img {
+  width: 76px;
+  height: 71px;
+  margin-top: 5px;
+}
+.mission__logo--text {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 62px;
+  color: #fff;
+  width: 224px;
+  height: 93px;
+  margin-left: 25px;
+}
+.mission__caption {
+  width: 994px;
+  height: 352px;
+  margin: 0 auto;
+  margin-top: 48.5px;
+}
+.mission__heading {
+  width: 164px;
+  height: 38px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 25px;
+  color: #306EF7;
+  margin: 0 auto;
+}
+.mission__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 75px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.mission__description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.mission__block {
+  width: 1252px;
+  height: 1572.5px;
+  border-bottom: 1px solid #707070;
+  margin: 170px auto 0;
+}
+.mission__text {
+  width: 1154px;
+  height: 1514px;
+  margin-left: 87px;
+}
+.mission__two {
+  margin-top: 45px;
+}
+.mission__three {
+  margin-top: 57px;
+}
+.mission__four {
+  margin-top: 16px;
+}
+.mission__five {
+  margin-top: 29px;
+}
+.mission__six {
+  margin-top: 53px;
+}
+.mission__authors {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+  margin-top: 54px;
+}
+
+.paragraph {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+  line-height: 42px;
+}
+
+.team__content {
+  width: 1058px;
+  height: 467px;
+  margin: 188.5px auto 0;
+}
+.team__caption {
+  width: 640px;
+  height: 150px;
+  margin: 0 auto;
+}
+.team__heading {
+  width: 128px;
+  height: 38px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 25px;
+  color: #306EF7;
+  margin: 0 auto;
+}
+.team__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 75px;
+  color: #fff;
+}
+.team__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team__coworkers {
+  width: 1058px;
+  height: 258px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 59px;
+}
+.team__img {
+  width: 112px;
+  height: 112px;
+  text-align: center;
+}
+.team__name {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+  margin: 0 auto;
+}
+.team__speciality {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 19px;
+  color: #707070;
+  height: 28px;
+  margin: 0 auto;
+}
+.team__smp {
+  width: 90px;
+  height: 30px;
+  margin: 0 auto;
+}
+.team__link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+.ceo {
+  width: 129px;
+}
+
+.sto {
+  width: 192px;
+}
+
+.coo {
+  width: 120px;
+}
+
+.jacob {
+  width: 212px;
+}
+
+.daniel {
+  width: 115px;
+}
+
+.ryan {
+  width: 220px;
+}
+
+.start {
+  color: #fff;
+  margin: 188px 0 183px 0;
+}
+.start__content {
+  width: 880px;
+  height: 588px;
+  margin: 0 auto;
+}
+.start__logo {
+  width: 165px;
+  height: 152px;
+  margin: 0 auto;
+}
+.start__title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 100px;
+  color: #fff;
+  width: 830px;
+  height: 150px;
+  margin: 20px auto 0;
+}
+.start__description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 43px;
+  color: #fff;
+}
+.start__button {
+  width: 472px;
+  height: 102px;
+  display: flex;
+  justify-content: space-between;
+  margin: 14px auto 0;
+  font-family: "Poppins";
+}
+.start__btn {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 29px;
+  color: #707070;
+  background: #0E0E0E;
+  border: solid #707070 1px;
+  border-radius: 15px;
+  padding: 29px 113px;
+  transition: 0.35s;
+}
+.start__btn:hover {
+  background: #306EF7;
+  color: #fff;
+  border: solid transparent 1px;
+  transition: 0.35s;
+}
+.start__creators {
+  width: 750px;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  margin: 26px auto 0;
+  align-items: center;
+}
+.start__creators--counterFirst {
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+}
+.start__creators--counterSecond {
+  font-weight: 400;
+  font-size: 38px;
+  color: #707070;
+}
+.start__creators--dot {
+  width: 37px;
+  height: 37px;
+}
+
+.footer__content {
+  width: 1641px;
+  height: 106px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 140px 60px 140px;
+  align-items: center;
+}
+.footer__logo {
+  display: flex;
+  text-align: center;
+}
+.footer__logo--text {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 42px;
+  margin-left: 16px;
+  margin-top: 7px;
+  color: #fff;
+}
+.footer__mail {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 27px;
+  color: #707070;
+}
+.footer__list {
+  display: flex;
+  width: 476px;
+  justify-content: space-between;
+}
+.footer__link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 28px;
+  color: #707070;
+  transition: 0.25s;
+}
+.footer__link:hover {
+  color: #306EF7;
+  transition: 0.25s;
+}/*# sourceMappingURL=about.css.map */

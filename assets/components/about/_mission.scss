@@ -1,0 +1,84 @@
+.mission {
+    &__logo {
+        width: 326px;
+        height: 93px;
+        display: flex;
+        margin: 122px auto 0;
+        &--img {
+            width: 76px;
+            height: 71px;
+            margin-top: 5px;
+        }
+        &--text {
+            font-family: 'Poppins';
+            @include font (800, 62px, $text-white);
+            width: 224px;
+            height: 93px;
+            margin-left: 25px;
+        }
+    }
+    &__caption {
+        width: 994px;
+        height: 352px;
+        margin: 0 auto;
+        margin-top: 48.5px;
+    }
+    &__heading {
+        width: 164px;
+        height: 38px;
+        font-family: 'Poppins';
+        @include font (600, 25px, $bg-blue);
+        margin: 0 auto;
+
+    }
+    &__title {
+        font-family: 'Poppins';
+        @include font (600, 75px, $text-white);
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__description {
+        font-family: 'Poppins';
+        @include font (400, 30px, $text-white);
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__block {
+        width: 1252px;
+        height: 1572.5px;
+        border-bottom: 1px solid $text-grey;
+        margin: 170px auto 0;
+    }
+    &__text {
+        width: 1154px;
+        height: 1514px; 
+        margin-left: 87px;
+    }
+    
+    &__two {
+        margin-top: 45px;
+    }
+    &__three {
+        margin-top: 57px;
+    }
+    &__four {
+        margin-top: 16px;
+    }
+    &__five {
+        margin-top: 29px;
+    }
+    &__six {
+        margin-top: 53px;
+    }
+    &__authors {
+        font-family: 'Poppins';
+        @include font (600, 28px, $text-white);
+        margin-top: 54px;
+    }
+    
+}
+.paragraph {
+    font-family: 'Poppins';
+    @include font (400, 28px, $text-white);
+    line-height: 42px;
+}

@@ -1,0 +1,142 @@
+.price {
+    &__content {
+        width: 1640px;
+        height: 1224px;
+        margin: 127px auto 0;
+    }
+    &__title {
+        width: 1356px;
+        height: 112px;
+        font-family: 'Poppins';
+        @include font (600, 75px, $text-white);
+        line-height: 112px;
+        margin: 0 auto;
+    }
+    &__group {
+        width: 1640px;
+        height: 989px;
+        margin: 123px auto 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__plan {
+        width: 496px;
+        height: 989px;
+        background: #131313;
+        border-radius: 30px;
+        border: 1px solid $text-grey;
+        position: relative;
+        transition: 0.3s;
+    }
+    &__plan:hover {
+        background: $bg-blue;
+        color: $text-white;
+        
+
+    }
+    &__name {
+        max-width: 250px;
+        height: 75px;
+        font-family: 'Poppins';
+        @include font (600, 50px, $text-white);
+        line-height: 75px;
+        margin: 38px 0 0 35px;
+
+    }
+    &__capabilities {
+        max-width: 397px;
+        height: 42px;
+        font-family: 'Poppins';
+        @include font (400, 28px, $text-lightgrey);
+        line-height: 42px;
+        margin: 1px 0 0 35px;
+    }
+    &__free {
+        width: 153px;
+        font-family: 'Poppins';
+        @include font (700, 69px, $text-white);
+        line-height: 104px;
+        margin: 14px 0 108px 35px;
+    }
+    &__cost {
+        max-width: 270px;
+        font-family: 'Poppins';
+        @include font (700, 69px, $text-white);
+        line-height: 104px;
+        margin: 14px 0 0 35px;
+        display: flex;
+        align-items: end;
+    }
+    &__costDescr {
+        font-family: 'Poppins';
+        @include font (400, 26px, $text-lightgrey);
+        line-height: 39px;
+        margin: 0 0 15px 5px;
+    }
+    &__costDescription {
+        font-family: 'Poppins';
+        @include font (400, 26px, $text-lightgrey);
+        line-height: 39px;
+        margin: 0 0 67px 35px;
+
+    }
+    &__subscribers, &__feature {
+        width: 409px;
+        font-family: 'Poppins';
+        @include font (600, 27px, $text-white);
+        line-height: 40px;
+        margin: 0 0 8px 35px;
+
+    }
+    &__emails {
+        width: 371px;
+        font-family: 'Poppins';
+        @include font (300, 28px, $text-white);
+        line-height: 42px;
+        margin: 0 0 44px 35px;
+    }
+    &__purchase {
+        max-width: 427px;
+        font-family: 'Poppins';
+        @include font (300, 24px, $text-lightgrey);
+        line-height: 42px;
+        margin: 0 auto 54px ;
+    }
+    &__features {
+        display: flex;
+        max-width: 446px;
+        font-family: 'Poppins';
+        @include font (300, 24px, $text-white );
+        line-height: 36px;
+        margin: 22px auto 22px ;
+        &--img {
+            margin-right: 10px;
+        }
+    }
+    &__btn {
+        position: absolute;
+        font-family: 'Poppins';
+        @include font (500, 27px, $text-white);
+        background: transparent;
+        border: solid $bg-blue 3.5px;
+        border-radius: 15px;
+        padding: 32px 64px;
+        transition: 0.25s;
+        margin-left: 32px;
+        top: 849px;
+    }
+    &__btn:hover {
+        background: $text-white;
+        color: $bg-blue;
+        border: solid $text-white 3.5px;
+    }
+    
+
+}
+.startFree {
+    padding: 32px 124px;
+}
+.free {
+    width: 358px;
+
+}

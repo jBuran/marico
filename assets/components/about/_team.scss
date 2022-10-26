@@ -1,0 +1,82 @@
+.team {
+    &__content {
+        width: 1058px;
+        height: 467px;
+        margin: 188.5px auto 0;
+
+    }
+    &__caption {
+        width: 640px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    &__heading {
+        width: 128px;
+        height: 38px;
+        font-family: 'Poppins';
+        @include font (600, 25px, $bg-blue);
+        margin: 0 auto;
+    }
+    &__title {
+        font-family: 'Poppins';
+        @include font (600, 75px, $text-white);
+    }
+    &__group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__coworkers {
+        width: 1058px;
+        height: 258px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 59px;
+    }
+    &__img {
+        width: 112px;
+        height: 112px;
+        text-align: center;
+    }
+    &__name {
+        font-family: 'Poppins';
+        @include font (700, 35px, $text-white);
+        margin: 0 auto;
+        
+
+    }
+    &__speciality {
+        font-family: 'Poppins';
+        @include font (400, 19px, $text-grey);
+        height: 28px;
+        margin: 0 auto;
+
+    }
+    &__smp {
+        width: 90px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    &__link {
+        font-family: 'Poppins';
+        @include font (500, 20px, $text-white);
+    }
+}
+.ceo {
+    width: 129px;
+}
+.sto {
+    width: 192px;
+}
+.coo {
+    width: 120px;
+}
+.jacob {
+    width: 212px;
+}
+.daniel {
+    width: 115px;
+}
+.ryan {
+    width: 220px;
+}

@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.header {
+  padding: 46px 140px 0 140px;
+}
+.header__content {
+  width: 1640px;
+  height: 56px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  text-align: center;
+}
+.header__logo--text {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 37px;
+  margin-left: 16px;
+  margin-top: 7px;
+  color: #fff;
+}
+.header__list {
+  display: flex;
+  width: 398px;
+  justify-content: space-between;
+}
+.header__link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: #707070;
+  transition: 0.25s;
+}
+.header__link:hover {
+  color: #306EF7;
+  transition: 0.25s;
+}
+.header__registration {
+  display: flex;
+  width: 198px;
+  justify-content: space-between;
+}
+.header__registration--link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: #707070;
+}
+.header__registration--link:hover {
+  color: #306EF7;
+  transition: 0.25s;
+}
+.header__registration--btn {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  color: #707070;
+  background: transparent;
+  border: solid #707070 1px;
+  border-radius: 7px;
+  padding: 12px 21px;
+  transition: 0.25s;
+}
+.header__registration--btn:hover {
+  background: #306EF7;
+  color: #fff;
+  border: solid transparent 1px;
+  transition: 0.25s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.login__content {
+  height: 423px;
+}
+.login__caption {
+  width: 395px;
+  height: 146px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 79px;
+}
+.login__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 75px;
+  color: #fff;
+  line-height: 112px;
+}
+.login__description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.login__form {
+  top: 75px;
+  width: 1119px;
+  height: 202px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+.login__form--group {
+  width: 487px;
+  height: 52px;
+  position: relative;
+}
+.login__form--input {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 23px;
+  color: #fff;
+  width: 100%;
+  padding: 0 0 10px 0;
+  border: none;
+  border-bottom: 1px solid #707070;
+  background-color: transparent;
+  outline: none;
+  transition: 0.3s;
+}
+.login__form--img {
+  width: 26px;
+  height: 31px;
+  position: absolute;
+  left: 450px;
+}
+.login__btn {
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 26px;
+  color: #707070;
+  background: transparent;
+  border: solid #707070 1px;
+  border-radius: 15px;
+  padding: 23px 194px;
+  transition: 0.25s;
+  margin: 0 auto;
+  left: 315px;
+  top: 115px;
+}
+.login__btn:hover {
+  background: #306EF7;
+  color: #fff;
+  border: solid transparent 1px;
+  transition: 0.25s;
+}
+
+.password {
+  left: 1080px;
+}
+
+.altway__content {
+  width: 1520px;
+  height: 406px;
+  margin: 67px auto 0;
+}
+.altway__caption {
+  width: 161px;
+  height: 118px;
+  margin: 0 auto;
+}
+.altway__caption--login {
+  width: 141px;
+  height: 118px;
+  margin: 0 auto;
+}
+.altway__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 54px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.altway__description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.altway__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1520px;
+  height: 75px;
+  margin-top: 46px;
+}
+.altway__btn {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 21px;
+  color: #fff;
+  border: solid #707070 1px;
+  border-radius: 15px;
+  transition: 0.25s;
+}
+.altway__btn:hover {
+  background: #707070;
+  color: #fff;
+  border: solid transparent 1px;
+  transition: 0.25s;
+}
+.altway__group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.altway__img {
+  position: absolute;
+}
+.altway__question {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  width: 324px;
+  height: 34px;
+  margin: 70px auto 74px;
+}
+
+.apple {
+  padding: 23px 104px 20px 156px;
+}
+
+.facebook {
+  padding: 23px 82px 20px 136px;
+}
+
+.google {
+  padding: 23px 95px 20px 150px;
+}
+
+.appleImg {
+  left: 104px;
+}
+
+.facebookImg {
+  left: 82px;
+}
+
+.googleImg {
+  left: 95px;
+}/*# sourceMappingURL=login.css.map */
